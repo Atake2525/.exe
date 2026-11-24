@@ -1,0 +1,99 @@
+{
+    "name": "scene",
+    "objects": [
+        {
+            "type": "MESH",
+            "name": "円柱",
+            "transform": {
+                "translation": [
+                    -129.0,
+                    133.5,
+                    19.794445037841797
+                ],
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scaling": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "file_name": "goal",
+            "moveObject": {
+                "move": "false"
+            }
+        },
+        {
+            "type": "MESH",
+            "name": "球",
+            "transform": {
+                "translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scaling": [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            },
+            "file_name": "startpoint",
+            "moveObject": {
+                "move": "false"
+            }
+        },
+        {
+            "type": "MESH",
+            "name": "立方体.004",
+            "transform": {
+                "translation": [
+                    -102.0,
+                    83.0,
+                    9.086469650268555
+                ],
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scaling": [
+                    6.0,
+                    1.0,
+                    4.0
+                ]
+            },
+            "file_name": "trap",
+            "moveObject": {
+                "move": "true",
+                "velocity_translation": [
+                    0.0,
+                    0.0,
+                    -19.0
+                ],
+                "velocity_rotation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "velocity_scale": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "loop": "true",
+                "reverse": "true",
+                "runtime": 4.0,
+                "enable_spawner": "false"
+            }
+        }
+    ]
+}
